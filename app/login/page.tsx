@@ -48,7 +48,7 @@ export default function LoginPage() {
         <div className="text-center">
           <Link href="/store" className="inline-flex items-center gap-2">
             <div className="w-10 h-10 bg-purple-700 rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-xl">AB</span>
+              <span className="text-white font-bold text-xl">4B</span>
             </div>
           </Link>
           <h2 className="mt-6 text-3xl font-extrabold text-gray-900">Sign in to your account</h2>

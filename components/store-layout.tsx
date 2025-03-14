@@ -35,7 +35,7 @@ export default function StoreLayout({ children }: { children: React.ReactNode })
         <div className="container mx-auto px-4 py-3 flex items-center justify-between">
           <Link href="/store" className="flex items-center gap-2">
             <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center">
-              <span className="text-purple-700 font-bold text-xl">AB</span>
+              <span className="text-purple-700 font-bold text-xl">4B</span>
             </div>
             <div className="font-bold text-xl">
               Store
