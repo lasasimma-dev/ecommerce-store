@@ -83,7 +83,7 @@ export default function PaymentPage() {
             A confirmation email has been sent to your email address.
           </p>
           <div className="space-y-3">
-            <Button asChild className="w-full bg-purple-700 hover:bg-purple-800">
+            <Button asChild className="w-full bg-gradient-to-r from-red-600 to-purple-700 hover:bg-purple-800">
               <Link href="/account/orders">View Order</Link>
             </Button>
             <Button asChild variant="outline" className="w-full">
@@ -167,7 +167,7 @@ export default function PaymentPage() {
 
                       <Button
                         type="submit"
-                        className="w-full mt-6 bg-purple-700 hover:bg-purple-800"
+                        className="w-full mt-6 bg-gradient-to-r from-red-600 to-purple-700 hover:bg-purple-800"
                         disabled={isProcessing}
                       >
                         {isProcessing ? "Processing..." : `Pay $${total.toFixed(2)}`}
@@ -234,7 +234,7 @@ export default function PaymentPage() {
                         </RadioGroup>
 
                         <Button
-                          className="w-full mt-4 bg-purple-700 hover:bg-purple-800"
+                          className="w-full mt-4 bg-gradient-to-r from-red-600 to-purple-700 hover:bg-purple-800"
                           onClick={handlePayment}
                           disabled={isProcessing || !selectedPaymentMethod}
                         >

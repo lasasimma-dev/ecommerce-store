@@ -53,7 +53,7 @@ export default function CategorySidebar() {
           <Input type="number" placeholder="Min" value={minPrice} onChange={(e) => setMinPrice(e.target.value)} />
           <Input type="number" placeholder="Max" value={maxPrice} onChange={(e) => setMaxPrice(e.target.value)} />
         </div>
-        <Button className="w-full bg-purple-700 hover:bg-purple-800">Apply</Button>
+        <Button className="w-full bg-gradient-to-r from-red-600 to-purple-700 hover:bg-purple-800">Apply</Button>
       </div>
     </div>
   )

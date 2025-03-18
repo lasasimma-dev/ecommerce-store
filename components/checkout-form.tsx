@@ -202,7 +202,7 @@ export default function CheckoutForm() {
                 </div>
               </CardContent>
               <CardFooter>
-                <Button type="submit" className="w-full bg-purple-700 hover:bg-purple-800" disabled={isSubmitting}>
+                <Button type="submit" className="w-full bg-gradient-to-r from-red-600 to-purple-700 hover:bg-purple-800" disabled={isSubmitting}>
                   {isSubmitting ? "Processing..." : "Continue to Payment"}
                 </Button>
               </CardFooter>

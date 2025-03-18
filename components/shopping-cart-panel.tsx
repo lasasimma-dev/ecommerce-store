@@ -72,7 +72,7 @@ export default function ShoppingCartPanel({ isOpen, onClose }: ShoppingCartPanel
 
             <div className="space-y-2">
               <Link href="/checkout" onClick={onClose}>
-                <Button className="w-full bg-purple-700 hover:bg-purple-800">Checkout</Button>
+                <Button className="w-full bg-gradient-to-r from-red-600 to-purple-700 hover:bg-purple-800">Checkout</Button>
               </Link>
               <Button variant="outline" className="w-full" onClick={clearCart}>
                 Clear Cart
@@ -92,7 +92,7 @@ function EmptyCart() {
       <h3 className="text-xl font-medium mb-2">Your cart is empty</h3>
       <p className="text-muted-foreground mb-6">Add products to your cart to begin checkout</p>
       <Link href="/store">
-        <Button className="bg-purple-700 hover:bg-purple-800">Continue Shopping</Button>
+        <Button className="bg-gradient-to-r from-red-600 to-purple-700 hover:bg-purple-800">Continue Shopping</Button>
       </Link>
     </div>
   )

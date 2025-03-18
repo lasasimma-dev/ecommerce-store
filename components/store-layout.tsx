@@ -30,15 +30,15 @@ export default function StoreLayout({ children }: { children: React.ReactNode })
   return (
     <div className="min-h-screen flex flex-col">
       {/* Header */}
-      <header className="bg-gradient-to-r from-purple-700 to-purple-900 text-white sticky top-0 z-40">
+      <header className="bg-gradient-to-r from-red-600 to-purple-700 text-white sticky top-0 z-40">
         {/* Top header with logo and search */}
         <div className="container mx-auto px-4 py-3 flex items-center justify-between">
           <Link href="/store" className="flex items-center gap-2">
             <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center">
-              <span className="text-purple-700 font-bold text-xl">4B</span>
+              <span className="text-red-600 font-bold text-xl">4B</span>
             </div>
             <div className="font-bold text-xl">
-              Store
+              Salespage
               <div className="text-xs font-normal">FOR BUSINESS</div>
             </div>
           </Link>
@@ -52,7 +52,7 @@ export default function StoreLayout({ children }: { children: React.ReactNode })
               />
               <Button
                 size="icon"
-                className="absolute right-0 top-0 h-full rounded-r-full bg-purple-800 hover:bg-purple-900"
+                className="absolute right-0 top-0 h-full rounded-r-full bg-purple-700 hover:bg-purple-900"
               >
                 <Search className="h-4 w-4" />
               </Button>

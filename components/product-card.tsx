@@ -55,7 +55,8 @@ export default function ProductCard({ product }: ProductCardProps) {
       </Link>
 
       <div className="px-3 pb-3">
-        <Button className="w-full bg-purple-700 hover:bg-purple-800" onClick={() => addToCart(product)}>
+        {/* <Button className="w-full bg-purple-700 hover:bg-purple-800" onClick={() => addToCart(product)}> */}
+        <Button className="w-full bg-gradient-to-r from-red-600 to-purple-700 hover:bg-purple-800" onClick={() => addToCart(product)}>
           Add to Cart
         </Button>
       </div>

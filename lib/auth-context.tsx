@@ -226,6 +226,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     setPaymentMethods([])
     setOrders([])
     localStorage.removeItem("user")
+    // Don't clear cart data to allow browsing products after logout
   }
 
   const addAddress = (address: Omit<Address, "id">) => {
