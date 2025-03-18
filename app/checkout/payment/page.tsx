@@ -246,7 +246,7 @@ export default function PaymentPage() {
                         <p className="mb-4">You don't have any saved payment methods.</p>
                         <Button
                           variant="outline"
-                          onClick={() => document.querySelector('[data-value="card"]')?.click()}
+                          onClick={() => (document.querySelector('[data-value="card"]') as HTMLElement)?.click()}
                         >
                           Add a new payment method
                         </Button>

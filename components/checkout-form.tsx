@@ -77,7 +77,7 @@ export default function CheckoutForm() {
       <div className="max-w-md mx-auto text-center py-12">
         <h1 className="text-2xl font-bold mb-4">Your cart is empty</h1>
         <p className="text-muted-foreground mb-6">Add some products to your cart before checking out</p>
-        <Button onClick={() => router.push("/store")} className="bg-purple-700 hover:bg-purple-800">
+        <Button onClick={() => router.push("/store")} className="bg-gradient-to-r from-red-600 to-purple-700 hover:bg-purple-800">
           Back to Store
         </Button>
       </div>
